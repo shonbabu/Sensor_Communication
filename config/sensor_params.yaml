@@ -1,0 +1,11 @@
+sensor_communication_node:
+  ros__parameters:
+    # Sensor connection settings
+    sensor_host: "localhost"
+    sensor_port: 2000
+    
+    # Default interval for auto-start (milliseconds)
+    default_interval: 1000
+    
+    # Auto-start sensor on launch
+    auto_start: true
