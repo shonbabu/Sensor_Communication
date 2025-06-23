@@ -176,18 +176,6 @@ $11E803FA00F4010A000500<CR><LF>
 - `PITCH` → 0x000A = 10 deci-degrees = 1.0°
 - `ROLL` → 0x0005 = 5 deci-degrees = 0.5°
 
-### Published Topics
-
-The sensor node publishes decoded data to the following ROS2 topics:
-
-| Topic Name | Message Type | Units | Description |
-|------------|--------------|-------|-------------|
-| `/sensor/supply_voltage` | `std_msgs/Float32` | Volts | Supply voltage (converted from mV) |
-| `/sensor/temperature` | `std_msgs/Float32` | °C | Environmental temperature (converted from deci-degrees) |
-| `/sensor/orientation/yaw` | `std_msgs/Float32` | Degrees | Yaw angle (converted from deci-degrees) |
-| `/sensor/orientation/pitch` | `std_msgs/Float32` | Degrees | Pitch angle (converted from deci-degrees) |
-| `/sensor/orientation/roll` | `std_msgs/Float32` | Degrees | Roll angle (converted from deci-degrees) |
-
 ### Data Processing Pipeline
 
 1. **Receives TCP data** from sensor
