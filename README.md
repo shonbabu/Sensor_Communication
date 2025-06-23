@@ -26,13 +26,17 @@ sensor_communication/
 
 ## Published Topics
 
-Topic	Message Type	Description
-/sensor/supply_voltage	std_msgs/Float32	Supply voltage in Volts
-/sensor/environment_temperature	sensor_msgs/Temperature	Environment temperature
-/sensor/orientation	geometry_msgs/Vector3	Yaw, Pitch, Roll in degrees
-/sensor/yaw	std_msgs/Int16	Yaw angle in deci-degrees
-/sensor/pitch	std_msgs/Int16	Pitch angle in deci-degrees
-/sensor/roll	std_msgs/Int16	Roll angle in deci-degrees
+## Published Topics
+
+| Topic | Message Type | Description |
+|-------|-------------|-------------|
+| `/sensor/supply_voltage` | `std_msgs/Float32` | Supply voltage in Volts |
+| `/sensor/environment_temperature` | `sensor_msgs/Temperature` | Environment temperature |
+| `/sensor/orientation` | `geometry_msgs/Vector3` | Yaw, Pitch, Roll in degrees |
+| `/sensor/yaw` | `std_msgs/Int16` | Yaw angle in deci-degrees |
+| `/sensor/pitch` | `std_msgs/Int16` | Pitch angle in deci-degrees |
+| `/sensor/roll` | `std_msgs/Int16` | Roll angle in deci-degrees |
+
 
 ## Subscribed Topics
 
