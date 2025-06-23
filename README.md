@@ -234,19 +234,5 @@ ros2 topic pub /sensor/stop_command std_msgs/Int16 "data: 0"
 
 ---
 
-## Monitoring & Debugging
 
-### Check Published Topics
-```bash
-# List all topics
-ros2 topic list
-
-# Monitor specific sensor data
-ros2 topic echo /sensor/supply_voltage
-ros2 topic echo /sensor/temperature
-ros2 topic echo /sensor/orientation/yaw
-```
-
-
-```
 
